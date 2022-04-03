@@ -1,0 +1,35 @@
+{
+    "name": "marick/laravel-safe",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Marick\\LaravelSafe\\": "src/"
+        },
+        "files": [
+            "./src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marick van Tuil",
+            "email": "info@marickvantuil.nl"
+        }
+    ],
+    "require": {
+        "php": "^8.0|^8.1"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.3",
+        "pestphp/pest": "^1.21"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}

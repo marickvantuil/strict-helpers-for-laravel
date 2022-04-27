@@ -1,6 +1,6 @@
 <?php
 
-use function Marick\LaravelSafe\config;
+use function Marick\LaravelStrict\config;
 
 test('example', function (array $output) {
     [$actual, $expected] = $output;

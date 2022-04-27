@@ -23,10 +23,10 @@ function config($key = null, $default = null)
 ```
 
 This package wraps Laravel's helpers and adds nice methods that always expect a clear return type.
-If the method has a different return type, an exception will automatically be thrown, making it strict and 'safe'.
+If the method has a different return type, an exception will automatically be thrown, making it strict.
 
 ```php
-use function Marick\LaravelSafe\config;
+use function Marick\LaravelStrict\config;
 
 echo strlen(config('app.name')->string());
 ```
@@ -34,7 +34,7 @@ echo strlen(config('app.name')->string());
 Or use the global helper:
 
 ```php
-echo strlen(safeConfig('app.name'));
+echo strlen(strictConfig('app.name'));
 
 # Or in class form...
 Helper::config('app.name')->string();

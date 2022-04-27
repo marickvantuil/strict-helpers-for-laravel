@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Marick\LaravelSafe;
+namespace Marick\LaravelStrict;
 
-class Safe
+class Strict
 {
     private string $helper;
     private array $args;

@@ -1,9 +1,9 @@
 {
-    "name": "marick/laravel-safe",
+    "name": "marick/laravel-strict",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Marick\\LaravelSafe\\": "src/"
+            "Marick\\LaravelStrict\\": "src/"
         },
         "files": [
             "./src/helpers.php"
